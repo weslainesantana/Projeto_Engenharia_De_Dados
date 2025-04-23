@@ -9,7 +9,7 @@ Este projeto demonstra a integração de **Apache Spark** com os formatos de tab
 - Apache Iceberg
 - Python
 - Jupyter Lab
-- [uv](https://github.com/astral-sh/uv) (gerenciador de dependências)
+- [UV](https://github.com/astral-sh/uv) (gerenciador de dependências)
 
 ---
 
@@ -31,6 +31,10 @@ uv add pyspark==3.5.3 jupyterlab ipykernel
 ![image](https://github.com/user-attachments/assets/6394e5b6-c51e-4245-bad2-450d864e422a)
 
 Arquivo de INSERT, UPDATE, DELETE E SELECT para as tabelas Iceberg `spark-iceberg.ipynb`.
+
+
+---
+
 
 ## ⚙️ Configuração do Ambiente DELTA-LAKE
 
