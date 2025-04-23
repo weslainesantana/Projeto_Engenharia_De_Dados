@@ -1,0 +1,51 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "f0d9f27e-757f-44c8-8e7a-58a6901cd6b6",
+  "location" : "spark-warehouse/iceberg/pedido",
+  "last-sequence-number" : 0,
+  "last-updated-ms" : 1745371435499,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "cod_pedido",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "cod_cliente",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "data",
+      "required" : false,
+      "type" : "date"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "Fontanella",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : -1,
+  "refs" : { },
+  "snapshots" : [ ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ ],
+  "metadata-log" : [ ]
+}

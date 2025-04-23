@@ -1,0 +1,86 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "f0d9f27e-757f-44c8-8e7a-58a6901cd6b6",
+  "location" : "spark-warehouse/iceberg/pedido",
+  "last-sequence-number" : 1,
+  "last-updated-ms" : 1745371442364,
+  "last-column-id" : 3,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "cod_pedido",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "cod_cliente",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 3,
+      "name" : "data",
+      "required" : false,
+      "type" : "date"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "Fontanella",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 1536001796854188915,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 1536001796854188915,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 1536001796854188915,
+    "timestamp-ms" : 1745371442364,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1745371427241",
+      "added-data-files" : "2",
+      "added-records" : "2",
+      "added-files-size" : "1762",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "1762",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0",
+      "engine-version" : "3.5.3",
+      "app-id" : "local-1745371427241",
+      "engine-name" : "spark",
+      "iceberg-version" : "Apache Iceberg 1.6.1 (commit 8e9d59d299be42b0bca9461457cd1e95dbaad086)"
+    },
+    "manifest-list" : "spark-warehouse/iceberg/pedido/metadata/snap-1536001796854188915-1-e11269cd-9a2c-400a-8ebd-5141d2041f6e.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1745371442364,
+    "snapshot-id" : 1536001796854188915
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1745371435499,
+    "metadata-file" : "spark-warehouse/iceberg/pedido/metadata/v1.metadata.json"
+  } ]
+}
