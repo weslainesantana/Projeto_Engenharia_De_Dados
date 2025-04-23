@@ -30,8 +30,7 @@ uv add pyspark==3.5.3 jupyterlab ipykernel
 
 ![image](https://github.com/user-attachments/assets/6394e5b6-c51e-4245-bad2-450d864e422a)
 
-Arquivo de INSERT, UPDATE, DELETE E SELECT para as tabelas Iceberg `spark-iceberg.ipynb`.
-
+- [Arquivo de INSERT, UPDATE, DELETE E SELECT para as tabelas Iceberg](spark-iceberg/spark-iceberg.ipynb)
 
 ---
 
@@ -50,4 +49,4 @@ uv add pyspark==3.5.3 jupyterlab ipykernel
 
 ![image](https://github.com/user-attachments/assets/6394e5b6-c51e-4245-bad2-450d864e422a)
 
-Arquivo de INSERT, UPDATE, DELETE E SELECT para as tabelas Delta `spark-delta-lake.ipynb`.
+- [Arquivo de INSERT, UPDATE, DELETE E SELECT para as tabelas Delta ](spark-delta/spark-delta-lake.ipynb)
